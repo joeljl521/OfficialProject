@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #C4A484;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="45.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PrimeHealth Network">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="81.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back!">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="43.0" layoutY="284.0" prefHeight="32.0" prefWidth="236.0" />
+      <TextField layoutX="43.0" layoutY="219.0" prefHeight="32.0" prefWidth="236.0" />
+      <Text layoutX="58.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="161.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField alignment="CENTER" layoutX="43.0" layoutY="357.0" prefHeight="32.0" prefWidth="236.0" text="Login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="43.0" layoutY="470.0" prefHeight="32.0" prefWidth="236.0" text="Sign in with Google">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="43.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="149.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="178.0" layoutY="506.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: BD9B16;" text="Create an account!">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="66.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lets explore the best health plans.">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
