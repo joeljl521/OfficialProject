@@ -36,6 +36,6 @@
          </children>
       </Pane>
       <Button layoutX="48.0" layoutY="375.0" mnemonicParsing="false" onAction="#onLoginButtonClick" style="-fx-background-color: BD9B16;" text="Log In" />
-      <Button layoutX="228.0" layoutY="375.0" mnemonicParsing="false" style="-fx-background-color: BD9B16;" text="Sign Up" />
+      <Button layoutX="228.0" layoutY="375.0" mnemonicParsing="false" onAction="#onSignUpBtn" style="-fx-background-color: BD9B16;" text="Sign Up" />
    </children>
 </AnchorPane>

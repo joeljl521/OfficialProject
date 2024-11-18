@@ -6,16 +6,22 @@ import javafx.scene.control.Label;
 import java.io.IOException;
 
 public class mainmenuController {
-    @FXML
-    private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void onLoginButtonClick(){
+        try {
+            HelloApplication.setRoot("loginpage.fxml");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @FXML
-    protected void onLoginButtonClick() throws IOException {
-        HelloApplication.setRoot("loginpage.fxml");
+    protected void onSignUpBtn() {
+        try {
+            HelloApplication.setRoot("signuppage.fxml");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
