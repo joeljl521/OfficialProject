@@ -11,7 +11,7 @@
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="959.0" prefWidth="331.0" style="-fx-background-color: #C4A484;">
          <children>
-            <Text layoutX="44.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PrimeHealth Network">
+            <Text layoutX="44.0" layoutY="66.0" onMouseClicked="#onTitleClick" strokeType="OUTSIDE" strokeWidth="0.0" text="PrimeHealth Network">
                <font>
                   <Font name="System Bold Italic" size="24.0" />
                </font>
