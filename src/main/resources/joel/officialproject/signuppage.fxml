@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="joel.officialproject.SignupPageController">
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="952.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="joel.officialproject.SignupPageController">
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="959.0" prefWidth="331.0" style="-fx-background-color: #C4A484;">
          <children>
@@ -37,15 +37,15 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <TextField fx:id="firstnameid" layoutX="69.0" layoutY="317.0" prefHeight="25.0" prefWidth="195.0" />
-            <TextField fx:id="lastnameid" layoutX="68.0" layoutY="386.0" prefHeight="25.0" prefWidth="196.0" />
-            <TextField fx:id="dobid" layoutX="70.0" layoutY="467.0" prefHeight="25.0" prefWidth="197.0" />
-            <Text layoutX="82.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+            <TextField fx:id="firstnameid" layoutX="69.0" layoutY="317.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.leftAnchor="60.0" />
+            <TextField fx:id="lastnameid" layoutX="68.0" layoutY="386.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.leftAnchor="60.0" />
+            <TextField fx:id="dobid" layoutX="70.0" layoutY="467.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.leftAnchor="60.0" />
+            <Text layoutX="82.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="83.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+            <Text layoutX="83.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -55,31 +55,31 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <TextField fx:id="middlenameid" layoutX="68.0" layoutY="523.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="middlenameid" layoutX="68.0" layoutY="523.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.leftAnchor="60.0" />
             <Text layoutX="83.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Middle Name (Optional)">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="97.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" AnchorPane.leftAnchor="97.0">
+            <Text layoutX="97.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <TextField fx:id="emailid" layoutX="69.0" layoutY="585.0" prefHeight="26.0" prefWidth="192.0" />
-            <Text layoutX="129.0" layoutY="636.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" AnchorPane.leftAnchor="96.8">
+            <TextField fx:id="emailid" layoutX="69.0" layoutY="585.0" prefHeight="26.0" prefWidth="192.0" AnchorPane.leftAnchor="60.0" />
+            <Text layoutX="129.0" layoutY="636.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <TextField fx:id="genderid" layoutX="67.0" layoutY="650.0" prefHeight="25.0" prefWidth="196.0" />
-            <Text layoutX="93.0" layoutY="708.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Phone Number" AnchorPane.leftAnchor="96.8">
+            <TextField fx:id="genderid" layoutX="67.0" layoutY="650.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.leftAnchor="60.0" />
+            <Text layoutX="93.0" layoutY="708.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Phone Number" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <TextField fx:id="phonenumberid" layoutX="59.0" layoutY="727.0" prefHeight="25.0" prefWidth="197.0" />
-            <Text layoutX="122.0" layoutY="774.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" AnchorPane.leftAnchor="96.8">
+            <TextField fx:id="phonenumberid" layoutX="60.0" layoutY="726.0" prefHeight="25.0" prefWidth="196.0" />
+            <Text layoutX="122.0" layoutY="774.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" AnchorPane.leftAnchor="82.0">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>

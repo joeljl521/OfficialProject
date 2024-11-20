@@ -27,7 +27,10 @@
       </Label>
       <Pane layoutX="46.0" layoutY="148.0" prefHeight="149.0" prefWidth="242.0" style="-fx-background-color: #A9A9A9;">
          <children>
-            <Button layoutX="29.0" layoutY="77.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="184.0" style="-fx-background-color: BD9B16;" text="DISCOVER MORE" />
+            <Button layoutX="29.0" layoutY="77.0" mnemonicParsing="false" onAction="#AboutUsBtn" prefHeight="48.0" prefWidth="184.0" style="-fx-background-color: BD9B16;" text="ABOUT US">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Button>
             <Label layoutX="13.0" layoutY="28.0" text="             SEE EVERY OPTION&#10;DISCOVER YOUR IDEAL COVERAGE.">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
@@ -35,7 +38,13 @@
             </Label>
          </children>
       </Pane>
-      <Button layoutX="48.0" layoutY="375.0" mnemonicParsing="false" onAction="#onLoginButtonClick" style="-fx-background-color: BD9B16;" text="Log In" />
-      <Button layoutX="228.0" layoutY="375.0" mnemonicParsing="false" onAction="#onSignUpBtn" style="-fx-background-color: BD9B16;" text="Sign Up" />
+      <Button layoutX="48.0" layoutY="375.0" mnemonicParsing="false" onAction="#onLoginButtonClick" style="-fx-background-color: BD9B16;" text="Log In">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button layoutX="228.0" layoutY="375.0" mnemonicParsing="false" onAction="#onSignUpBtn" style="-fx-background-color: BD9B16;" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
    </children>
 </AnchorPane>

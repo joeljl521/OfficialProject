@@ -8,6 +8,15 @@ import java.io.IOException;
 public class mainmenuController {
 
     @FXML
+    protected void AboutUsBtn(){
+        try {
+            HelloApplication.setRoot("aboutus.fxml");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @FXML
     protected void onLoginButtonClick(){
         try {
             HelloApplication.setRoot("loginpage.fxml");
