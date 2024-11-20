@@ -55,7 +55,7 @@
             <Font name="System Italic" size="14.0" />
          </font>
       </Text>
-      <Button layoutX="135.0" layoutY="372.0" mnemonicParsing="false" text="Login" />
+      <Button layoutX="135.0" layoutY="372.0" mnemonicParsing="false" onAction="#LoginBtn" text="Login" />
       <Button layoutX="100.0" layoutY="465.0" mnemonicParsing="false" text="Sign in With Google" />
    </children>
 </AnchorPane>

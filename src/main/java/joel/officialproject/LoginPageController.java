@@ -7,6 +7,15 @@ import javafx.scene.control.TextField;
 import java.io.IOException;
 
 public class LoginPageController {
+
+    @FXML
+    protected void LoginBtn(){
+        try {
+            HelloApplication.setRoot("useraccountinfo.fxml");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     @FXML
 
     protected void createaccountbtn(){
